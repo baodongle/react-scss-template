@@ -1,4 +1,5 @@
 module.exports = {
+  parser: 'babel-eslint', // Specifies the ESLint parser
   extends: [
     'plugin:react/recommended', // Uses the recommended rules from @eslint-plugin-react
     'plugin:prettier/recommended', // Enables eslint-plugin-prettier and displays prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
@@ -7,6 +8,9 @@ module.exports = {
   env: {
     browser: true,
     jest: true,
+  },
+  parserOptions: {
+    sourceType: 'module', // Allows for the use of imports
   },
   rules: {
     // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
