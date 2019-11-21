@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/baodongle/react-scss-template.svg)](https://greenkeeper.io/)
+
 In the project directory, you can run:
 
 ### `yarn start` or `npm start`
