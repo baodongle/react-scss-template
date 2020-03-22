@@ -44,7 +44,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "husky-hg": "^0.15.4",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.1",
     "pretty-quick": "^2.0.1",
     "stylelint": "^12.0.0",
     "stylelint-config-prettier": "^8.0.0",
